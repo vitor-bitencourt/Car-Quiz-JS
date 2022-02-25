@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Car Quiz</title>
+</head>
+<body>
+    
+     <div class="intro py-3 bg-white text-center">
+         <div class="container">
+             <h2 class="text-secondary display-3 my-4">
+                 Are you a car guy?
+             </h2>             
+         </div>
+     </div>
+
+     <!--ResultSection-->
+     <div class="result py-4 d-none bg-white text-center">
+        <div class="container lead">
+            <p>You are <span class="text-secondary display-4 p-3">0%</span> car guy </p>            
+        </div>
+    </div>
+
+     <!--Quiz Section-->
+     <div class="quiz py-4 bg-danger">
+         <div class="container">
+             <h2 class="my-5 text-white">On with the questions...</h2>
+
+            <form class="quiz-form text-light">
+                <!--Question 1-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. Which is the last Enzo Ferrari's Project?</p>
+                    
+                    <!--1st Optiom-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label"> F40 </label>
+                    </div>
+                    <!--2nd Option-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label"> F50 </label>
+                    </div>
+                </div>
+
+                <!--Question 2-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. Which is fastest car in the world?</p>
+                    <!--1st Optiom-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label"> Koenigsegg Agera R </label>
+                    </div>
+                    <!--2nd Option-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label"> Bugatti Chiron</label>
+                    </div>
+                </div>
+
+                <!--Question 3-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Which is Smokey Nagata's famous car that hit over 240 mi/h?</p>
+                    
+                    <!--1st Optiom-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label"> Toyota Supra</label>
+                    </div>
+                    <!--2nd Option-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label"> Nissa GT-R Skyline R-34 </label>
+                    </div>
+                </div>
+
+                <!--Question 4-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Who is the GOAT F1's pilot?</p>
+                    
+                    <!--1st Optiom-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label"> Alain Prost </label>
+                    </div>
+                    <!--2nd Option-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label"> Niki Lauda  </label>
+                    </div>
+                      <!--3rd Option-->
+                      <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C">
+                        <label class="form-check-label"> Ayrton Senna  </label>
+                    </div>
+                      <!--4th Option-->
+                      <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D">
+                        <label class="form-check-label"> Lewis Hamilton </label>
+                    </div>
+                </div>
+
+                 <!--Question 5-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">5. Who is the F1's world champion 2021?</p>
+                    
+                    <!--1st Optiom-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label class="form-check-label"> Lewis Hamilton </label>
+                    </div>
+                    <!--2nd Option-->
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B">
+                        <label class="form-check-label"> Charles Leclerc  </label>
+                    </div>
+                      <!--3rd Option-->
+                      <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="C">
+                        <label class="form-check-label"> Sebastian Vettel  </label>
+                    </div>
+                      <!--4th Option-->
+                      <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="D">
+                        <label class="form-check-label"> Max Vestappen </label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+
+         </div>
+     </div>
+    <script src="app.js"></script>
+</body>
+</html>
